@@ -1,0 +1,240 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.tip_search{
+    padding: 7px;
+    margin: 10px;
+    width: 200px;
+}
+
+#navbar {
+    display: flex;
+    text-align: center;
+}
+
+#nav1 {
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.273);
+    /* position: fixed; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    padding: 15px;
+}
+
+li a:hover {
+    color: red;
+}
+
+#top {
+    text-align: center;
+}
+
+#top:hover {
+    color: orange;
+}
+
+.SpHot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.SanPham{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: large;
+}
+
+main {
+    padding-top: 30px;
+}
+
+.img1 {
+    height: 50%;
+    width: 200px;
+    border-radius: 10px;
+    border: solid darkblue 2px;
+}
+
+.btn {
+    color: red;
+    height: 20px;
+}
+
+#kcj {
+    text-align: center;
+    font-size: large;
+    color: brown;
+}
+
+#tintuc {
+    padding-top: 30px;
+    background-image: url("https://img.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg?w=2000");
+}
+
+.tt {
+    text-align: center;
+}
+
+.tt :hover{
+    color: orange;
+}
+
+.p1 {
+    padding-top: 5px;
+    color: gray;
+    font-style: italic;
+}
+
+.tintuc1 {
+    width: 50%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+
+.hotro {
+    display: flex;
+}
+
+.a1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.a2{
+    color: rgb(59, 151, 151);
+    text-decoration: none;
+}
+.tintuc2{
+    font-size: larger;
+}
+
+.xemthem{
+    text-align: center;
+    color: brown;
+    font-size: large;
+}
+
+.gmh{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.sdt1{
+    color: red;
+    font-size: larger;
+}
+.time{
+    color: gray;
+    font-size: small;
+}
+.hotro1{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: beige;
+}
+.btn2{
+    border:0px;
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+
+
+.btn2:hover{
+    background-color: gray;
+    color: black;
+}
+
+
+.hotro3{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: lightgray;
+}
+footer{
+    padding-top:30px ;
+}
+p a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+}
+p a:hover{
+    background-color: gold;
+    color: blue;
+}
+
+.thongtin1{
+    background-color: rgba(176, 172, 172, 0.837);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ttct{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.tt1{
+    color: ghostwhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dndk{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.support2{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.xsp{
+    background-color: honeydew;
+    border-radius: 3px ;
+    border: 0;
+    padding: 5px;
+    background-color: cornflowerblue;
+    margin: 5px 0;
+}
+#gioitinh{
+    border: solid 1px ;
+    border-radius: 5px;
+    width: 170px;
+}
+
+.banner_img{
+    display: none;
+}

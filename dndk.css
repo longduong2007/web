@@ -1,0 +1,54 @@
+.dndk{
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    /* border-radius: 5px ; */
+    /* border: solid 3px; */
+    width: 400px;
+    background-image: url("https://img.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg?w=2000");
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.txt_ip{
+    padding: 7px;
+    margin: 5px;
+    width: 300px;
+}
+
+#user, #matkhau, #rpp{
+    padding: 7px;
+    margin: 5px;
+    width: 300px;
+}
+
+#gioitinh, #chk_gender{
+    margin-top: 15px;
+    margin-left: 7px;
+    border: 0;
+}
+
+.btn_dangky{
+    width: 70px;
+    height: 35px;
+    border: 0;
+    background-color: cornflowerblue;
+    margin-top: 15px;
+    margin-left: 40%;
+}
+
+.btn_dangnhap{
+    width: 100px;
+    height: 35px;
+    border: 0;
+    background-color: cornflowerblue;
+    margin-top: 15px;
+}
+

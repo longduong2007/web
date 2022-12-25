@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dndk.css">
+</head>
+
+<body>
+
+    <div class="dndk">
+        <h1>Đăng ký</h1>
+        <form>
+            <input id="user" placeholder="Tên đăng nhập">
+            <br>
+            <input id="matkhau" placeholder="Mật khẩu">
+            <br>
+            <input id="rpp" placeholder="Nhập lại mật khẩu">
+            <br>
+            <div id="gioitinh">
+                <p>Giới tính:</p>
+                <input type="radio" name="gender" value="nam" > Nam<br>
+                <input type="radio" name="gender" value="nu"> Nữ<br>
+                <input type="radio" name="gender" value="kcj"> Không muốn trả lời<br>
+            </div>
+            <input id="chk_gender" type="checkbox" name="gender" value="dongy"> Đồng ý với điều khoản sử dụng<br>
+            <button class="btn_dangky" onclick="DangKy()">Đăng kí</button>
+        </form>
+    </div>
+    <div>
+        <h3>Lưu ý: Mật khẩu phải dài hơn 6 kí tự</h3>
+    </div>
+
+
+    <script src="dangki.js">
+    </script>
+</body>
+
+
+
+</html>
